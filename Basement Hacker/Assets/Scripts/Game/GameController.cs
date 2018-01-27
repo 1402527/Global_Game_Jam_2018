@@ -13,15 +13,16 @@ namespace HacOS.Scripts.Game {
 		private List<UserChoice> pastChoices;
 		private TaskBank currentTaskBank;
 		private UserChoice currentTask;
+		private Outcome currentOutcome;
 
 		public Action<string> OnGameFinished;
 
 		private void Start() {
-			currentTaskBank = gameData.GetNextBank();
-			if(currentTaskBank == null) {
-				var username = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-				Debug.LogErrorFormat("I'm sorry {0} but no data found", username);
-			}
+			// currentTaskBank = gameData.GetNextBank();
+			// if(currentTaskBank == null) {
+			// 	var username = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+			// 	Debug.LogErrorFormat("I'm sorry {0} but no data found", username);
+			// }
 		}
 
 		public string GetMessage() {
@@ -36,20 +37,32 @@ namespace HacOS.Scripts.Game {
 			return currentTask.illuminateChoice;
 		}
 
-		public string SelectChoice(bool isGoodChoice) {
-			var outcome = isGoodChoice ? currentTask.badOutcome : currentTask.badOutcome;
-			currentScore += outcome.outcomeValue;
-			return outcome.text;
+		public string GetOutcomeText() {
+			return currentOutcome.text;
+		}
+
+		public Sprite GetOutcomeSprite() {
+			return null;//currentOutcome.sprite;
+		}
+
+		public void SelectChoice(bool isGoodChoice) {
+			if(currentOutcome != null) {
+				return;
+			}
+
+			currentOutcome = isGoodChoice ? currentTask.goodOutcome : currentTask.badOutcome;
+			currentScore += currentOutcome.outcomeValue;
 		}
 
 		public void ReadyNextMessage() {
-			if(currentTaskBank.BankDepleted) {
+			if(currentTaskBank == null || currentTaskBank.BankDepleted) {
 				if(gameData.CompletedAllBanks) {
 					OnGameFinished(string.Empty);
 					return;
 				}
 				currentTaskBank = gameData.GetNextBank();
 				ReadyNextMessage();
+				return;
 			}
 			currentTask = currentTaskBank.GetUserChoice();
 		}

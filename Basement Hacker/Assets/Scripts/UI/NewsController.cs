@@ -24,6 +24,7 @@ namespace HacOS.Scripts.UI {
 			sb.Append(playerName);
 			sb.Append(", do you believe this");
 			newsPost.SetPostInfo("Joe", postImage, sb.ToString(), newsMessage);
+			allPosts.Add(newsPost);
 		}
 
 #if UNITY_EDITOR

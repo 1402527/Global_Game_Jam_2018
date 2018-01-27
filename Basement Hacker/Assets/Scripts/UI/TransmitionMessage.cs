@@ -12,13 +12,17 @@ namespace HacOS.Scripts.UI
         [SerializeField] private TMP_Text goodText;
         [SerializeField] private TMP_Text badText;
 
-        // not sure how to complete this, there is an error in transmision controller.
-       //public void SetActive (bool)
-       // {
+        private GameObject cachedGameObject;
 
-       // }
+        public void SetActive (bool isActive)
+        {
+            if(cachedGameObject == null) {
+                cachedGameObject = gameObject;
+            }
+            cachedGameObject.SetActive(isActive);
+        }
 
-       public void SetMessage(string info)
+        public void SetMessage(string info)
         {
             text.SetText(info);
         }

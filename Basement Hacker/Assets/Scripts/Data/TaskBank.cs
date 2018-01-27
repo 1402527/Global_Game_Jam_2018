@@ -7,8 +7,8 @@ namespace HacOS.Scripts.Data {
 	public class TaskBank : ScriptableObject, IResettable {
 		public bool isSequential = true;
         public UserChoice[] Tasks;
-		private int currentTaskIdx = 0;
-        private List<UserChoice> usedChoices = new List<UserChoice>();
+		[System.NonSerialized] private int currentTaskIdx = 0;
+        [System.NonSerialized] private List<UserChoice> usedChoices = new List<UserChoice>();
 
         public bool BankDepleted { get { return usedChoices.Count >= Tasks.Length; } }
 
@@ -28,7 +28,7 @@ namespace HacOS.Scripts.Data {
 			if(currentTaskIdx < Tasks.Length) {
 				return Tasks[currentTaskIdx++];
 			}
-			return Tasks[currentTaskIdx];
+			return Tasks[Tasks.Length-1];
         }
 
         private UserChoice GetRandomTask() {
