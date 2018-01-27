@@ -18,6 +18,7 @@ namespace HacOS.Scripts.UI {
 
 			notificationIcon.SetActive(true);
 			notificationMessage.SetActive(true);
+            
 			//notificationMessage.SetMessage(info)
 			//notificationMessage.SetGoodOption(goodOption)
 			//notificationMessage.SetBadOption(badOption)
