@@ -11,5 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
   m_Name: transmission1_bad
   m_EditorClassIdentifier: 
-  text: 
-  outcomeValue: 0
+  text: "Dark Wednesday\nDAZNAQ\u2019s market points suffered a staggering loss of
+    60%, leading to mass hysteria and rioting from the Tocslish people late into the
+    night.\nAs panic ensues in the territory, the Tocslish government has been left
+    baffled by the drop, admitting their lack of preperation by such a recession.\n"
+  outcomeValue: -10

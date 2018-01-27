@@ -11,5 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
   m_Name: transmission1_good
   m_EditorClassIdentifier: 
-  text: 
-  outcomeValue: 0
+  text: "Sell! Sell! Sell!\nDAZNAQ\u2019S market points have plummeted by 45%, as
+    market experts predict it to fall further as the panicked Tocslish shareholders
+    sell fast.\nThe anonymous tip has reached the Tocslish Government, who are now
+    able to anticipate further recession and provide aid to centralised unions. \n"
+  outcomeValue: 10

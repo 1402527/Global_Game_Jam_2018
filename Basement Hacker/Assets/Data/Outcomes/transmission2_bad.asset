@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
   m_Name: transmission2_bad
   m_EditorClassIdentifier: 
-  text: 
-  outcomeValue: 0
+  text: "NonThreat inc. closes its doors\nA co-founder of software startup NonThreat
+    Inc. announced its shutdown following 'unspecified cash flow problems'. meanwhile,
+    Shady McTricky\u2019s Illumination Industries keep their hold on the market. "
+  outcomeValue: -20

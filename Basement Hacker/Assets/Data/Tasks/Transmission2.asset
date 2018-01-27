@@ -11,8 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1606bd142ceac4270a042ec5dde23173, type: 3}
   m_Name: Transmission2
   m_EditorClassIdentifier: 
-  information: 
-  goodChoice: 
-  illuminateChoice: 
-  goodOutcome: {fileID: 0}
-  badOutcome: {fileID: 0}
+  information: "A small software company has became an unexpected success since its
+    recent startup campaign. So successful however, they\u2019re putting the market
+    control and profits of one of our most loyal clients at risk. It would be most
+    convenient if this nuisance would disappear as a small favour."
+  goodChoice: Warn the Startup
+  illuminateChoice: Proceed with Sabotage
+  goodOutcome: {fileID: 11400000, guid: 5a7ff287a369f467ebd561e781bd0034, type: 2}
+  badOutcome: {fileID: 11400000, guid: cfcde48da24fe470683d50cffadae75f, type: 2}
