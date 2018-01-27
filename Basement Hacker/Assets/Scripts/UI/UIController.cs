@@ -12,11 +12,21 @@ namespace HacOS.Scripts.UI {
 		void Start () {
 			gameController.OnGameFinished += OnGameOver;
 			transmitionController.onChoiceSelected += OnChoiceSelected;
+			GetIncommingTransmition();
+		}
+
+		public void GetIncommingTransmition() {
+			gameController.ReadyNextMessage();
+			var info = gameController.GetMessage();
+			var goodChoice = gameController.GetGoodChoice();
+			var badChoice = gameController.GetGoodChoice();
+
+			transmitionController.IncomingTransmition(info, goodChoice, badChoice);
 		}
 
 		private void OnChoiceSelected(bool isGoodChoice) {
 			gameController.SelectChoice(isGoodChoice);
-			
+
 		}
 
 
