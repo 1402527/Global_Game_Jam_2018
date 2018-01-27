@@ -18,5 +18,5 @@ MonoBehaviour:
     to pull some skeletons out of his closet."
   goodChoice: Inform the Fifth Party
   illuminateChoice: Proceed with Blackmail
-  goodOutcome: {fileID: 0}
-  badOutcome: {fileID: 0}
+  goodOutcome: {fileID: 11400000, guid: 5613e1c88515e4cb685e6cce471feeee, type: 2}
+  badOutcome: {fileID: 11400000, guid: 59dc2b53850c24ac19c553537bdb3457, type: 2}
