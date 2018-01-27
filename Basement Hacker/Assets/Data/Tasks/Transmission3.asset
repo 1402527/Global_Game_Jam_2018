@@ -17,5 +17,5 @@ MonoBehaviour:
     his Cloud Drive Files. Go crazy.\n"
   goodChoice: Refuse
   illuminateChoice: Frame Whistleblower
-  goodOutcome: {fileID: 0}
-  badOutcome: {fileID: 0}
+  goodOutcome: {fileID: 11400000, guid: 56f21c3cf7800429184a7e38b417bc80, type: 2}
+  badOutcome: {fileID: 11400000, guid: 20fe3ae38537c4be998892c0c597f403, type: 2}

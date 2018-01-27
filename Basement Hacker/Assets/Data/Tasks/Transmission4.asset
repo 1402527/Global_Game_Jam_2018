@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1606bd142ceac4270a042ec5dde23173, type: 3}
+  m_Name: Transmission4
+  m_EditorClassIdentifier: 
+  information: "The presidential election in the Unity of Armacka is coming soon.
+    A fifth party politician is gaining a large following and is projected to make
+    the primaries. He\u2019s not one of \u2018our guys\u2019, however, and could jeopardize
+    our influence in the territory. There\u2019s a lot riding on this, it\u2019s time
+    to pull some skeletons out of his closet."
+  goodChoice: Inform the Fifth Party
+  illuminateChoice: Proceed with Blackmail
+  goodOutcome: {fileID: 0}
+  badOutcome: {fileID: 0}
