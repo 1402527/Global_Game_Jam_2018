@@ -65,6 +65,7 @@ namespace HacOS.Scripts.Game {
 				return;
 			}
 			currentTask = currentTaskBank.GetUserChoice();
+			currentOutcome = null;
 		}
 
 		public void ResetGame() {

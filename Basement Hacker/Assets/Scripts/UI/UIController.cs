@@ -14,6 +14,7 @@ namespace HacOS.Scripts.UI {
 		void Start () {
 			gameController.OnGameFinished += OnGameOver;
 			transmitionController.onChoiceSelected += OnChoiceSelected;
+			newsController.onPostRead += OnPostRead;
 			GetIncommingTransmition();
 		}
 
@@ -34,6 +35,14 @@ namespace HacOS.Scripts.UI {
             StartCoroutine(DelayResponse(5.0f, () =>
                 {
                     newsController.AddNewsPost(outcomeText, outcomeSprite);
+                }
+            ));
+		}
+
+		private void OnPostRead() {
+			StartCoroutine(DelayResponse(15.0f, () =>
+                {
+                    GetIncommingTransmition();
                 }
             ));
 		}
