@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1606bd142ceac4270a042ec5dde23173, type: 3}
+  m_Name: Transmission1
+  m_EditorClassIdentifier: 
+  information: n two weeks, the stocks of the DAZNAQ market will violently crash.
+    The majority holders of located in Tocsland will be most affected, and the lack
+    of forewarning will bring brief destabilisation to the territory.
+  goodChoice: Leak to the Press
+  illuminateChoice: 
+  goodOutcome: {fileID: 11400000, guid: 04bdbba266e1742f48c672c73df2393d, type: 2}
+  badOutcome: {fileID: 0}
