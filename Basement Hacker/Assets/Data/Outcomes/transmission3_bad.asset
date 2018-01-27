@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
+  m_Name: transmission3_bad
+  m_EditorClassIdentifier: 
+  text: "Conspiracy Fanatic Terror Plot Revealed\nNotorious conspiracy blogger Reynold
+    Blake was arrested this morning after the details of a full-scale terror attack
+    were found on his saved Cloud files. Police officials report that Blake vehemently
+    denied any terror plans, with one investigator going on record to say it was an
+    \u201Cobvious open-and-shut-case\u201D.\n"
+  outcomeValue: -30
