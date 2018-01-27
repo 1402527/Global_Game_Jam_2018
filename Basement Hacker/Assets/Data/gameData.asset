@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
-  m_Name: good1
+  m_Script: {fileID: 11500000, guid: aa0a7282ac14544579c87d59c3804584, type: 3}
+  m_Name: gameData
   m_EditorClassIdentifier: 
-  text: They found {0}
-  outcomeValue: 0
+  taskBanks:
+  - {fileID: 11400000, guid: 13b00756d8c5a4de4aa0a915f33d263f, type: 2}

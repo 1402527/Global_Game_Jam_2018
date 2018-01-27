@@ -8,8 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
-  m_Name: good1
+  m_Script: {fileID: 11500000, guid: c2cb2446d339b4f75a9f7c2db5999314, type: 3}
+  m_Name: FirstAct
   m_EditorClassIdentifier: 
-  text: They found {0}
-  outcomeValue: 0
+  isSequential: 1
+  Tasks:
+  - {fileID: 11400000, guid: a5dbe5743170244dcab3ce36cc73f634, type: 2}

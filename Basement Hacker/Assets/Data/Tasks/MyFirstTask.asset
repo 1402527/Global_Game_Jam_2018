@@ -14,4 +14,5 @@ MonoBehaviour:
   information: 
   goodChoice: 
   illuminateChoice: 
-  outcomeValue: 0
+  goodOutcome: {fileID: 11400000, guid: 04bdbba266e1742f48c672c73df2393d, type: 2}
+  badOutcome: {fileID: 0}
