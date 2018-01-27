@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,8 @@ namespace HacOS.Scripts.UI {
         [SerializeField] private GameObject newsNotificationIcon;
         //[SerializeField] private bool tabOpened;
         private List<NewsPost> allPosts = new List<NewsPost>();
+		public Action onPostRead = delegate {};
+		bool recievedPostWhileClosed = false;
 
 		public void AddNewsPost(string newsMessage, Sprite postImage) {
 			scrollView.normalizedPosition = Vector2.one;
@@ -19,7 +22,11 @@ namespace HacOS.Scripts.UI {
             if (transform.GetSiblingIndex() == 0)
             {
                 newsNotificationIcon.SetActive(true);
+				recievedPostWhileClosed = true;
             }
+			else {
+				onPostRead();
+			}
 
 			var newsPost = Instantiate<NewsPost>(newsPostPrefab, Vector3.zero, Quaternion.identity);
 			var postTransform = newsPost.transform;
@@ -35,8 +42,13 @@ namespace HacOS.Scripts.UI {
 		}
 
         public void NewsTabOpened()
-        { 
+        {
             newsNotificationIcon.SetActive(false);
+			
+			if(recievedPostWhileClosed) {
+				recievedPostWhileClosed = false;
+				onPostRead();
+			}
         }
 
 #if UNITY_EDITOR
