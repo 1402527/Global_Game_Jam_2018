@@ -10,12 +10,17 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private Transform newsPostContainer;
 		[SerializeField] private ScrollRect scrollView;
         [SerializeField] private GameObject newsNotificationIcon;
-
+        //[SerializeField] private bool tabOpened;
         private List<NewsPost> allPosts = new List<NewsPost>();
 
 		public void AddNewsPost(string newsMessage, Sprite postImage) {
 			scrollView.normalizedPosition = Vector2.one;
-            newsNotificationIcon.SetActive(true);
+
+            if (transform.GetSiblingIndex() == 0)
+            {
+                newsNotificationIcon.SetActive(true);
+            }
+
 			var newsPost = Instantiate<NewsPost>(newsPostPrefab, Vector3.zero, Quaternion.identity);
 			var postTransform = newsPost.transform;
 			postTransform.SetParent(newsPostContainer, false);
@@ -30,7 +35,7 @@ namespace HacOS.Scripts.UI {
 		}
 
         public void NewsTabOpened()
-        {
+        { 
             newsNotificationIcon.SetActive(false);
         }
 
