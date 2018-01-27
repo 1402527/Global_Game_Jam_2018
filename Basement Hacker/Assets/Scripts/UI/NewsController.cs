@@ -9,11 +9,13 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private NewsPost newsPostPrefab;
 		[SerializeField] private Transform newsPostContainer;
 		[SerializeField] private ScrollRect scrollView;
-		private List<NewsPost> allPosts = new List<NewsPost>();
+        [SerializeField] private GameObject newsNotificationIcon;
+
+        private List<NewsPost> allPosts = new List<NewsPost>();
 
 		public void AddNewsPost(string newsMessage, Sprite postImage) {
 			scrollView.normalizedPosition = Vector2.one;
-
+            newsNotificationIcon.SetActive(true);
 			var newsPost = Instantiate<NewsPost>(newsPostPrefab, Vector3.zero, Quaternion.identity);
 			var postTransform = newsPost.transform;
 			postTransform.SetParent(newsPostContainer, false);
@@ -26,6 +28,11 @@ namespace HacOS.Scripts.UI {
 			newsPost.SetPostInfo("Joe", postImage, sb.ToString(), newsMessage);
 			allPosts.Add(newsPost);
 		}
+
+        public void NewsTabOpened()
+        {
+            newsNotificationIcon.SetActive(false);
+        }
 
 #if UNITY_EDITOR
 		public bool doPost = false;
