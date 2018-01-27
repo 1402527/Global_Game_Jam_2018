@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1606bd142ceac4270a042ec5dde23173, type: 3}
+  m_Name: Transmission5
+  m_EditorClassIdentifier: 
+  information: "All units: It has become apparent that Prime Minister Berkeley has
+    altered her allegiances. Angland is on the verge of escaping our grasp, if we
+    want to keep our world turning, we\u2019ll have to take necessary procedures.
+    The orders are confirmed; time for a change in management. "
+  goodChoice: Leak to the Secret Service
+  illuminateChoice: Allow Assassination
+  goodOutcome: {fileID: 11400000, guid: 79c5c25f5c18b4ea8a608c825af126a0, type: 2}
+  badOutcome: {fileID: 11400000, guid: 506711f8667694170951ebdd1ff61cf8, type: 2}
