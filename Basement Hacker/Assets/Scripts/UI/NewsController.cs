@@ -31,6 +31,7 @@ namespace HacOS.Scripts.UI {
 			var newsPost = Instantiate<NewsPost>(newsPostPrefab, Vector3.zero, Quaternion.identity);
 			var postTransform = newsPost.transform;
 			postTransform.SetParent(newsPostContainer, false);
+            postTransform.transform.SetAsFirstSibling();
 
 			var playerName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
 			var sb = new System.Text.StringBuilder();
