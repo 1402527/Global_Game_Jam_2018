@@ -11,7 +11,7 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private Transform newsPostContainer;
 		[SerializeField] private ScrollRect scrollView;
         [SerializeField] private GameObject newsNotificationIcon;
-        //[SerializeField] private bool tabOpened;
+        [SerializeField] private AudioSource notificationSound;
         private List<NewsPost> allPosts = new List<NewsPost>();
 		public Action onPostRead = delegate {};
 		bool recievedPostWhileClosed = false;
@@ -28,7 +28,12 @@ namespace HacOS.Scripts.UI {
 				onPostRead();
 			}
 
-			var newsPost = Instantiate<NewsPost>(newsPostPrefab, Vector3.zero, Quaternion.identity);
+            if (notificationSound != null)
+            {
+                notificationSound.Play();
+            }
+
+            var newsPost = Instantiate<NewsPost>(newsPostPrefab, Vector3.zero, Quaternion.identity);
 			var postTransform = newsPost.transform;
 			postTransform.SetParent(newsPostContainer, false);
             postTransform.transform.SetAsFirstSibling();
