@@ -15,7 +15,7 @@ namespace HacOS.Scripts.UI {
 
 		public void AddNewsPost(string newsMessage, Sprite postImage) {
 			scrollView.normalizedPosition = Vector2.one;
-
+           
             if (transform.GetSiblingIndex() == 0)
             {
                 newsNotificationIcon.SetActive(true);
