@@ -8,21 +8,27 @@ namespace HacOS.Scripts.UI
 
     public class TransmitionMessage : MonoBehaviour
     {
-        public TMP_Text text;
-        public TMP_Text goodText;
-        public TMP_Text badText;
+        [SerializeField] private TMP_Text text;
+        [SerializeField] private TMP_Text goodText;
+        [SerializeField] private TMP_Text badText;
 
-        void SetMessage(string info)
+        // not sure how to complete this, there is an error in transmision controller.
+       //public void SetActive (bool)
+       // {
+
+       // }
+
+       public void SetMessage(string info)
         {
             text.SetText(info);
         }
 
-        void SetGoodOption(string goodOption)
+        public void SetGoodOption(string goodOption)
         {
             goodText.SetText(goodOption);
         }
 
-        void SetBadOption(string badOption)
+        public void SetBadOption(string badOption)
         {
             badText.SetText(badOption);
         }

@@ -7,7 +7,7 @@ namespace HacOS.Scripts.UI {
 	public class TransmitionController : MonoBehaviour {
 		[SerializeField] private AudioSource notificationSound;
 		[SerializeField] private GameObject notificationIcon;
-		[SerializeField] private GameObject notificationMessage;
+        [SerializeField] private TransmitionMessage transmitionMessage;
 
 		public Action<bool> onChoiceSelected = delegate {};
 
@@ -17,11 +17,11 @@ namespace HacOS.Scripts.UI {
 			}
 
 			notificationIcon.SetActive(true);
-			notificationMessage.SetActive(true);
-            
-			//notificationMessage.SetMessage(info)
-			//notificationMessage.SetGoodOption(goodOption)
-			//notificationMessage.SetBadOption(badOption)
+            transmitionMessage.SetActive(true);
+
+            transmitionMessage.SetMessage(info);
+            transmitionMessage.SetGoodOption(goodOption);
+            transmitionMessage.SetBadOption(badOption);
 		}
 
 		public void SelectChoice(bool isGoodChoice) {
