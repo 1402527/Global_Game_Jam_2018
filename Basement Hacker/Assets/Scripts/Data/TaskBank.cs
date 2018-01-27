@@ -32,6 +32,10 @@ namespace HacOS.Scripts.Data {
         }
 
         private UserChoice GetRandomTask() {
+            if(BankDepleted) {
+                return Tasks[currentTaskIdx];
+            }
+            
             currentTaskIdx = Random.Range(0, Tasks.Length);
 
             // Not very efficient but it's a game jam :P

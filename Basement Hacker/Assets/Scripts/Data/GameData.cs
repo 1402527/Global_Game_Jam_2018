@@ -8,6 +8,8 @@ namespace HacOS.Scripts.Data {
 		public TaskBank[] taskBanks;
 		private int currentBankIdx = 0;
 
+		public bool CompletedAllBanks { get { return currentBankIdx >= taskBanks.Length; }}
+
 		public TaskBank GetNextBank() {
 			if(currentBankIdx < taskBanks.Length) {
 				return taskBanks[currentBankIdx++];
