@@ -662,7 +662,7 @@ Prefab:
     - target: {fileID: 224731682777296370, guid: f9c17f29658fc4d36b1f2f09da0b451d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000004916608
+      value: -0.000013097038
       objectReference: {fileID: 0}
     - target: {fileID: 224567489310723296, guid: f9c17f29658fc4d36b1f2f09da0b451d,
         type: 2}
@@ -707,6 +707,16 @@ Prefab:
     - target: {fileID: 114904032575857756, guid: f9c17f29658fc4d36b1f2f09da0b451d,
         type: 2}
       propertyPath: doPost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224731682777296370, guid: f9c17f29658fc4d36b1f2f09da0b451d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00005026647
+      objectReference: {fileID: 0}
+    - target: {fileID: 224786833231763982, guid: f9c17f29658fc4d36b1f2f09da0b451d,
+        type: 2}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1054,7 +1064,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1874481186}
-  - component: {fileID: 1874481185}
   m_Layer: 0
   m_Name: AudioListener
   m_TagString: Untagged
@@ -1062,13 +1071,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1874481185
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1874481184}
-  m_Enabled: 1
 --- !u!4 &1874481186
 Transform:
   m_ObjectHideFlags: 0

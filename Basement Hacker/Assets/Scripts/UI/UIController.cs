@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using HacOS.Scripts.Game;
 using UnityEngine;
+using System;
 
 namespace HacOS.Scripts.UI {
 	public class UIController : MonoBehaviour {
@@ -29,9 +30,20 @@ namespace HacOS.Scripts.UI {
 			gameController.SelectChoice(isGoodChoice);
 			var outcomeText = gameController.GetOutcomeText();
 			var outcomeSprite = gameController.GetOutcomeSprite();
-			newsController.AddNewsPost(outcomeText, outcomeSprite);
+
+            StartCoroutine(DelayResponse(5.0f, () =>
+                {
+                    newsController.AddNewsPost(outcomeText, outcomeSprite);
+                }
+            ));
 		}
 
+        private IEnumerator DelayResponse(float time, Action action)
+        {
+            yield return new WaitForSeconds(time);
+
+            action();
+        }
 
 		private void OnGameOver(string reason) {
 

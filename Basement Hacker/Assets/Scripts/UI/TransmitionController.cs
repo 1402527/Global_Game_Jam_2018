@@ -25,7 +25,9 @@ namespace HacOS.Scripts.UI {
 		}
 
 		public void SelectChoice(bool isGoodChoice) {
-			onChoiceSelected(isGoodChoice);
+            notificationIcon.SetActive(false);
+            onChoiceSelected(isGoodChoice);
 		}
-	}
+
+    }
 }
