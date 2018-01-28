@@ -588,6 +588,84 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: 530
       objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_text
+      value: 'Subject: New Database'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_text
+      value: 'Hello, karen. I hope all is well. find attached our new Public Exploitation
+        Database. This is strctly confidential. Not for public eyes.
+
+        For the Greater Good.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb511d095559b4d0e884f2cfc1b467e6, type: 2}
   m_IsPrefabParent: 0
@@ -817,6 +895,77 @@ Prefab:
     - target: {fileID: 1614220570386224, guid: eb511d095559b4d0e884f2cfc1b467e6, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_text
+      value: 'Subject: Totally Normal Database'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_text
+      value: "Wait, Whoever this is Do not read the last email. Its really boring
+        office stuff. no need to read it hahahaha. \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb511d095559b4d0e884f2cfc1b467e6, type: 2}
@@ -1880,22 +2029,22 @@ Prefab:
     - target: {fileID: 114911032759073764, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114911032759073764, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114509016182641942, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
@@ -1939,6 +2088,86 @@ Prefab:
     - target: {fileID: 1614220570386224, guid: eb511d095559b4d0e884f2cfc1b467e6, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_text
+      value: 'Subject: Welcome Aboard'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051327744310650, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_text
+      value: 'So, you have read it. Fine, if you want to stay alive then you will
+        help us now. Prepare to recieve transmissions.
+
+        For the Greater Good.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 137
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
+        type: 2}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb511d095559b4d0e884f2cfc1b467e6, type: 2}
