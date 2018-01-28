@@ -15,6 +15,7 @@ namespace HacOS.Scripts.UI {
         private List<NewsPost> allPosts = new List<NewsPost>();
 		public Action onPostRead = delegate {};
 		bool recievedPostWhileClosed = false;
+		string playerName = string.Empty;
 
 		public void AddNewsPost(string newsMessage, Sprite postImage) {
 			scrollView.normalizedPosition = Vector2.one;
@@ -38,7 +39,12 @@ namespace HacOS.Scripts.UI {
 			postTransform.SetParent(newsPostContainer, false);
             postTransform.transform.SetAsFirstSibling();
 
-			var playerName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+			if(string.IsNullOrEmpty(playerName)) {
+				playerName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+				var splitnames = playerName.Split('\\');
+				playerName = splitnames[splitnames.Length-1];
+			}
+			
 			var sb = new System.Text.StringBuilder();
 			sb.Append("Woah! @");
 			sb.Append(playerName);
