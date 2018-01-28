@@ -10,10 +10,14 @@ namespace HacOS.Scripts.UI {
 
         [SerializeField] private Image photo;
         [SerializeField] private TMP_Text newsMessage;
+        [SerializeField] private delegate void onArticleClicked();
+        [SerializeField] private static onArticleClicked articleClicked;
 
-        public void SetPostInfo(Sprite photo, String newsMessage) {
+        
+
+        public void SetArticleInfo(String news, Sprite photo ) {
             this.photo.overrideSprite = photo;
-            this.newsMessage.text = newsMessage;
+            this.newsMessage.text = news;
         }
     }
 }
