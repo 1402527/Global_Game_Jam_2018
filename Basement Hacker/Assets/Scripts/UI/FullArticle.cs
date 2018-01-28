@@ -15,7 +15,7 @@ namespace HacOS.Scripts.UI {
 
         
 
-        public void SetArticleInfo(String news, Sprite photo ) {
+        public void SetArticleInfo(string news, Sprite photo ) {
             this.photo.overrideSprite = photo;
             this.newsMessage.text = news;
         }

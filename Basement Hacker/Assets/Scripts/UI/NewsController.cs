@@ -67,7 +67,7 @@ namespace HacOS.Scripts.UI {
         public void OpenFullArticle(string news, Sprite photo)
         {
             fullArticle.SetActive(true);
-            //fullArticle.setArticleInfo(string news, Sprite photo);
+            //fullArticle.SetArticleInfo(string news, Sprite photo);
         }
 
 #if UNITY_EDITOR
