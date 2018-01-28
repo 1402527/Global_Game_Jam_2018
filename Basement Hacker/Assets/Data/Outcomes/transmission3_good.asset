@@ -19,5 +19,5 @@ MonoBehaviour:
     police are not treating the matter as suspicious.
 
 '
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: d4b5035f07dee433789573aed37114f0, type: 3}
   outcomeValue: 30

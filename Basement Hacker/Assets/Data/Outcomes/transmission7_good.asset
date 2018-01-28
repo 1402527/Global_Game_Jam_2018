@@ -17,5 +17,5 @@ MonoBehaviour:
     on Unfoundland was correctly identified as a false alarm. Government officials
     say this was the closest that King Harmon has came to declaring war on New Newland
     before an anonymous tip proved the erroneous data.'
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 8f4678331c86f467cb4202d82663b545, type: 3}
   outcomeValue: 40

@@ -17,5 +17,5 @@ MonoBehaviour:
     gave final orders to launch a nuclear missile strike on the Capital regions of
     New Newland, breaking the bitter stalemate between the regions. The Governments
     of New Newland are expected to retaliate.'
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 8f4678331c86f467cb4202d82663b545, type: 3}
   outcomeValue: -40
