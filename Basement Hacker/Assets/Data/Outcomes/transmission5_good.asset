@@ -17,5 +17,5 @@ MonoBehaviour:
     this morning after a short-notice cancellation of her speech in Hotting Nill.
     The Prime Minister is yet to give a reason for the postponement, with many insider
     sources speculating a sudden minor illness.'
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 3a7742a984906458fa6253086bfdda95, type: 3}
   outcomeValue: 40
