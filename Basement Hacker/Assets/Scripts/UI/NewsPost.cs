@@ -10,7 +10,6 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private Image photo;
 		[SerializeField] private TMP_Text userMessage;
 		[SerializeField] private TMP_Text newsMessage;
-        [SerializeField] private TMP_Text newsArticle;
         [SerializeField] private Action<string, Sprite> onArticleClicked;
 
         public void SetPostInfo(string userName, Sprite photo, string userMessage, string newsMessage, Action<string, Sprite> onArticleClicked) {

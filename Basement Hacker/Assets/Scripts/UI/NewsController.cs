@@ -12,6 +12,7 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private ScrollRect scrollView;
         [SerializeField] private GameObject newsNotificationIcon;
         [SerializeField] private AudioSource notificationSound;
+        [SerializeField] private GameObject fullArticle;
         private List<NewsPost> allPosts = new List<NewsPost>();
 		public Action onPostRead = delegate {};
 		bool recievedPostWhileClosed = false;
@@ -65,7 +66,7 @@ namespace HacOS.Scripts.UI {
 
         public void OpenFullArticle(string news, Sprite photo)
         {
-
+            fullArticle.SetActive(true);
         }
 
 #if UNITY_EDITOR
