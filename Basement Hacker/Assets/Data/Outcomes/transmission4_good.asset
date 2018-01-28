@@ -16,5 +16,5 @@ MonoBehaviour:
     Senator Fin Fidelity has lead the Fifth Party to the Final Election for the first
     time in Armackan history following months of successful debates and boasting a
     charismatic,  All-Armackan image.'
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 7f598d609633f404f94811e61b3fb280, type: 3}
   outcomeValue: 40

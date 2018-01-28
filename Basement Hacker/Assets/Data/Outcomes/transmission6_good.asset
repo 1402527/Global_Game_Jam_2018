@@ -15,4 +15,5 @@ MonoBehaviour:
     an all-time low approval rating following a city wide protest in Rontoria\u2019s
     capital. The peaceful protests were precipitated by the banks unfair lending practices
     that have been used against homeowners."
+  sprite: {fileID: 21300000, guid: 568e8c7ad7c4d4346a5a6f1ba71b22f3, type: 3}
   outcomeValue: 10

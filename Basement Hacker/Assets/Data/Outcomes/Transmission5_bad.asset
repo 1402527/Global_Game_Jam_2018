@@ -17,5 +17,5 @@ MonoBehaviour:
     Berkeley during her speech in Hotting Nill. A lone-wolf gunman was arrested at
     the scene, who investigators believe was motivated by a fanatical anti-Berkeley
     agenda. Details to follow.'
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 793b580fb52d0418d9cf2289e3f20e17, type: 3}
   outcomeValue: -40
