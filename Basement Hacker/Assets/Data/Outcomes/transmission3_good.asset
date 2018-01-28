@@ -11,8 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
   m_Name: transmission3_good
   m_EditorClassIdentifier: 
-  text: "Conspiracy Theorist Found Dead\nConspiracy fanatic Reynold Blake was found
-    dead in his residency this morning. Investigators report that the blogger, notorious
-    for his public mission to unravel government and corporate secrets died from a
-    self-inflicted gunshot wound. The police aren\u2019t treating the death as suspicious.\n"
+  text: 'Conspiracy Theorist Found Dead
+
+    Conspiracy fanatic Reynold Blake was found dead in his residency this morning.
+    Investigators report that the blogger, notorious for his public mission to unravel
+    government and corporate secrets, died from a self-inflicted gunshot wound. The
+    police are not treating the matter as suspicious.
+
+'
+  sprite: {fileID: 0}
   outcomeValue: 30

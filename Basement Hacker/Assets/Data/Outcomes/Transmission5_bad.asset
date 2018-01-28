@@ -15,6 +15,7 @@ MonoBehaviour:
 
     Angland is in mourning today following the fatal shooting of Prime Minister Rhonda
     Berkeley during her speech in Hotting Nill. A lone-wolf gunman was arrested at
-    the scene, who police believe was motivated by a fanatical anti-Berkeley agenda.
-    Details to follow.'
+    the scene, who investigators believe was motivated by a fanatical anti-Berkeley
+    agenda. Details to follow.'
+  sprite: {fileID: 0}
   outcomeValue: -40

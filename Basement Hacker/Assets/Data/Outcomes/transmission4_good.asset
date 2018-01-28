@@ -14,6 +14,7 @@ MonoBehaviour:
   text: 'Fidelity wins the Primaries
 
     Senator Fin Fidelity has lead the Fifth Party to the Final Election for the first
-    time in Armackan history following months of successful debates and boasting an
-    All-Armackan image.'
+    time in Armackan history following months of successful debates and boasting a
+    charismatic,  All-Armackan image.'
+  sprite: {fileID: 0}
   outcomeValue: 40
