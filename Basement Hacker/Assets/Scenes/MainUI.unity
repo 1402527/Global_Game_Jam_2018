@@ -621,30 +621,30 @@ Prefab:
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_text
-      value: 'Hello, karen. I hope all is well. find attached our new Public Exploitation
-        Database. This is strctly confidential. Not for public eyes.
+      value: 'Hello, karen. I hope all is well. Find attached our new Public Exploitation
+        Database. Not for public eyes.
 
         For the Greater Good.'
       objectReference: {fileID: 0}
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_textInfo.characterCount
-      value: 158
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_textInfo.spaceCount
-      value: 25
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_textInfo.wordCount
-      value: 26
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_textInfo.lineCount
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
@@ -654,7 +654,7 @@ Prefab:
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 131
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 114049884714276922, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
