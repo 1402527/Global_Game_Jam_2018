@@ -14,4 +14,5 @@ MonoBehaviour:
   text: "NonThreat inc. closes its doors\nA co-founder of software startup NonThreat
     Inc. announced its shutdown following 'unspecified cash flow problems'. meanwhile,
     Shady McTricky\u2019s Illumination Industries keep their hold on the market. "
+  sprite: {fileID: 21300000, guid: 2c179fbb429f64d1b9f3e7282e80ca74, type: 3}
   outcomeValue: -20

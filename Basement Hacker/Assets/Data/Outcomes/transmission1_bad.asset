@@ -15,4 +15,5 @@ MonoBehaviour:
     60%, leading to mass hysteria and rioting from the Tocslish people late into the
     night.\nAs panic ensues in the territory, the Tocslish government has been left
     baffled by the drop, admitting their lack of preperation by such a recession.\n"
+  sprite: {fileID: 21300000, guid: b64655782f6434a0086791c0b54a590f, type: 3}
   outcomeValue: -10
