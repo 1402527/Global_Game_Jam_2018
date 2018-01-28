@@ -17,5 +17,5 @@ MonoBehaviour:
     emerged from startup NonThreat Inc., who accused McTricky of deliberate sabotage
     attempts for the benefit of Illuminations profit margins. The CEO admitted to
     these attempts, embroiling the company into public scandal"
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: e186d97a5026f42d0b2c0004b8cb0cfc, type: 3}
   outcomeValue: 20

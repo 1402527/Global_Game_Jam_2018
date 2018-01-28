@@ -15,4 +15,5 @@ MonoBehaviour:
     market experts predict it to fall further as the panicked Tocslish shareholders
     sell fast.\nThe anonymous tip has reached the Tocslish Government, who are now
     able to anticipate further recession and provide aid to centralised unions. \n"
+  sprite: {fileID: 21300000, guid: 46e4002de00a048bfbc683fcd9dd628d, type: 3}
   outcomeValue: 10
