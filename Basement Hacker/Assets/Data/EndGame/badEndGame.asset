@@ -11,7 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df99e3058390450f8fe0e5fb757abf4, type: 3}
   m_Name: badEndGame
   m_EditorClassIdentifier: 
-  title: 
-  text: 
-  gameOverPrefab: {fileID: 0}
-  waitPeriod: 0
+  title: Good Bye
+  text: 'Hello {0},
+
+    Thank you for your service...
+
+    I'
+  gameOverPrefab: {fileID: 1944759834206716, guid: 6bdf8b3b2a34842ee82f9e0d3ad3addb,
+    type: 2}
