@@ -1711,7 +1711,7 @@ Prefab:
     - target: {fileID: 114509016182641942, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ResetTrigger
+      value: SetTrigger
       objectReference: {fileID: 0}
     - target: {fileID: 114509016182641942, guid: eb511d095559b4d0e884f2cfc1b467e6,
         type: 2}
