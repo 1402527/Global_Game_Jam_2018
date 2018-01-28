@@ -57,6 +57,8 @@ namespace HacOS.Scripts.UI {
         public void NewsTabOpened()
         {
             newsNotificationIcon.SetActive(false);
+			// just incase we left this open lets close it
+			fullArticle.gameObject.SetActive(false);
 			
 			if(recievedPostWhileClosed) {
 				recievedPostWhileClosed = false;

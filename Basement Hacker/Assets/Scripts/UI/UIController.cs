@@ -10,6 +10,7 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private TransmitionController transmitionController;
 		[SerializeField] private NewsController newsController;
 		[SerializeField] private EndGameController endGameController;
+		private bool isGameOver = false;
 
 		// Use this for initialization
 		void Start () {
@@ -17,16 +18,20 @@ namespace HacOS.Scripts.UI {
 			transmitionController.onChoiceSelected += OnChoiceSelected;
 			newsController.onPostRead += OnPostRead;
 			endGameController.onEndGameEmailClosed += OnEndGameEmailClosed;
+			isGameOver = false;
 			GetIncommingTransmition();
 		}
 
 		public void GetIncommingTransmition() {
 			gameController.ReadyNextMessage();
-			var info = gameController.GetMessage();
-			var goodChoice = gameController.GetGoodChoice();
-			var badChoice = gameController.GetBadChoice();
 
-			transmitionController.IncomingTransmition(info, goodChoice, badChoice);
+			if(!isGameOver) {
+				var info = gameController.GetMessage();
+				var goodChoice = gameController.GetGoodChoice();
+				var badChoice = gameController.GetBadChoice();
+
+				transmitionController.IncomingTransmition(info, goodChoice, badChoice);
+			}
 		}
 
 		private void OnChoiceSelected(bool isGoodChoice) {
@@ -34,7 +39,7 @@ namespace HacOS.Scripts.UI {
 			var outcomeText = gameController.GetOutcomeText();
 			var outcomeSprite = gameController.GetOutcomeSprite();
 
-            StartCoroutine(DelayResponse(2.0f, () =>
+            StartCoroutine(DelayResponse(1.0f, () =>
                 {
                     newsController.AddNewsPost(outcomeText, outcomeSprite);
                 }
@@ -57,7 +62,8 @@ namespace HacOS.Scripts.UI {
         }
 
 		private void OnGameOver(string title, string message, GameObject gameEndPrefab) {
-			StartCoroutine(DelayResponse(2.5f, () =>
+			isGameOver = true;
+			StartCoroutine(DelayResponse(2.0f, () =>
                 {
                     endGameController.StartEndGame(title, message, gameEndPrefab);
                 }
@@ -65,7 +71,7 @@ namespace HacOS.Scripts.UI {
 		}
 
 		private void OnEndGameEmailClosed() {
-			StartCoroutine(DelayResponse(2.5f, () =>
+			StartCoroutine(DelayResponse(1.5f, () =>
                 {
                     endGameController.ShowEndGamePrefab();
                 }
