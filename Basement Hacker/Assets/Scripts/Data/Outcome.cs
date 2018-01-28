@@ -6,6 +6,7 @@ namespace HacOS.Scripts.Data {
     [CreateAssetMenuAttribute(fileName ="choice", menuName ="HacOS/Outcome", order = 1)]
     public class Outcome : ScriptableObject {
         [TextArea] public string text;
+        public Sprite sprite;
 		[Range(-50,50)]
         public int outcomeValue;
     }

@@ -49,7 +49,7 @@ namespace HacOS.Scripts.UI {
 			sb.Append("Woah! @");
 			sb.Append(playerName);
 			sb.Append(", do you believe this");
-			newsPost.SetPostInfo("Joe", postImage, sb.ToString(), newsMessage);
+			newsPost.SetPostInfo("Joe", postImage, sb.ToString(), newsMessage, OpenFullArticle);
 			allPosts.Add(newsPost);
 		}
 
@@ -61,6 +61,11 @@ namespace HacOS.Scripts.UI {
 				recievedPostWhileClosed = false;
 				onPostRead();
 			}
+        }
+
+        public void OpenFullArticle(string news, Sprite photo)
+        {
+
         }
 
 #if UNITY_EDITOR
