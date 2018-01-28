@@ -15,7 +15,7 @@ namespace HacOS.Scripts.Game {
 		private UserChoice currentTask;
 		private Outcome currentOutcome;
 
-		public Action<string> OnGameFinished;
+		public Action<string, GameObject> OnGameFinished;
 
 		private void Start() {
 			// currentTaskBank = gameData.GetNextBank();
@@ -57,7 +57,7 @@ namespace HacOS.Scripts.Game {
 		public void ReadyNextMessage() {
 			if(currentTaskBank == null || currentTaskBank.BankDepleted) {
 				if(gameData.CompletedAllBanks) {
-					OnGameFinished(string.Empty);
+					GameFinished();
 					return;
 				}
 				currentTaskBank = gameData.GetNextBank();
@@ -70,6 +70,21 @@ namespace HacOS.Scripts.Game {
 
 		public void ResetGame() {
 			gameData.Reset();
+		}
+
+		private void GameFinished() {
+			GameEndData gameEndData = null;
+			if(currentScore > gameData.scoreThreshold) {
+				gameEndData = gameData.goodGameEnd;
+			}
+			else if(currentScore < -gameData.scoreThreshold) {
+				gameEndData = gameData.badGameEnd;
+			}
+			else {
+				gameEndData = gameData.neutralGameEnd;
+			}
+			
+			OnGameFinished(gameEndData.text, gameEndData.gameOverPrefab);
 		}
 	}
 }

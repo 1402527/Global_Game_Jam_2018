@@ -6,6 +6,11 @@ namespace HacOS.Scripts.Data {
     [CreateAssetMenuAttribute(fileName ="gameData", menuName ="HacOS/GameData", order = 0)]
 	public class GameData : ScriptableObject, IResettable {
 		public TaskBank[] taskBanks;
+		public int scoreThreshold;
+		public GameEndData goodGameEnd;
+		public GameEndData badGameEnd;
+		public GameEndData neutralGameEnd;
+
 		[System.NonSerialized] private int currentBankIdx = 0;
 
 		public bool CompletedAllBanks { get { return currentBankIdx >= taskBanks.Length; }}
