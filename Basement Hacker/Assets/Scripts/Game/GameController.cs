@@ -42,7 +42,7 @@ namespace HacOS.Scripts.Game {
 		}
 
 		public Sprite GetOutcomeSprite() {
-			return null;//currentOutcome.sprite;
+			return currentOutcome.sprite;
 		}
 
 		public void SelectChoice(bool isGoodChoice) {
