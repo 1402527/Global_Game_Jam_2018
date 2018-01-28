@@ -15,7 +15,7 @@ namespace HacOS.Scripts.Game {
 		private UserChoice currentTask;
 		private Outcome currentOutcome;
 
-		public Action<string, GameObject> OnGameFinished;
+		public Action<string, string, GameObject> OnGameFinished = delegate{};
 
 		private void Start() {
 			// currentTaskBank = gameData.GetNextBank();
@@ -84,7 +84,7 @@ namespace HacOS.Scripts.Game {
 				gameEndData = gameData.neutralGameEnd;
 			}
 			
-			OnGameFinished(gameEndData.text, gameEndData.gameOverPrefab);
+			OnGameFinished(gameEndData.title, gameEndData.text, gameEndData.gameOverPrefab);
 		}
 	}
 }

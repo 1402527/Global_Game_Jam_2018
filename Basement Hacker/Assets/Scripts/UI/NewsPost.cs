@@ -14,7 +14,7 @@ namespace HacOS.Scripts.UI {
 
         public void SetPostInfo(string userName, Sprite photo, string userMessage, string newsMessage, Action<string, Sprite> onArticleClicked) {
 			this.userName.text = userName;
-			this.photo.overrideSprite = photo;
+			this.photo.sprite = photo;
 			this.userMessage.text = userMessage;
 			this.newsMessage.text = newsMessage;
             this.onArticleClicked = onArticleClicked;

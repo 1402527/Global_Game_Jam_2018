@@ -14,6 +14,6 @@ MonoBehaviour:
   taskBanks:
   - {fileID: 11400000, guid: 13b00756d8c5a4de4aa0a915f33d263f, type: 2}
   scoreThreshold: 2
-  goodGameEnd: {fileID: 0}
-  badGameEnd: {fileID: 0}
-  neutralGameEnd: {fileID: 0}
+  goodGameEnd: {fileID: 11400000, guid: da5256c6e19bf4ec8b20d5edc468843e, type: 2}
+  badGameEnd: {fileID: 11400000, guid: 994feb53b3aee4394891ead755b11be9, type: 2}
+  neutralGameEnd: {fileID: 11400000, guid: ee2d489c09b3e43f497d3040fe2fdca7, type: 2}

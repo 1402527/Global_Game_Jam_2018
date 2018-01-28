@@ -9,12 +9,14 @@ namespace HacOS.Scripts.UI {
 		[SerializeField] private GameController gameController;
 		[SerializeField] private TransmitionController transmitionController;
 		[SerializeField] private NewsController newsController;
+		[SerializeField] private EndGameController endGameController;
 
 		// Use this for initialization
 		void Start () {
 			gameController.OnGameFinished += OnGameOver;
 			transmitionController.onChoiceSelected += OnChoiceSelected;
 			newsController.onPostRead += OnPostRead;
+			endGameController.onEndGameEmailClosed += OnEndGameEmailClosed;
 			GetIncommingTransmition();
 		}
 
@@ -32,7 +34,7 @@ namespace HacOS.Scripts.UI {
 			var outcomeText = gameController.GetOutcomeText();
 			var outcomeSprite = gameController.GetOutcomeSprite();
 
-            StartCoroutine(DelayResponse(5.0f, () =>
+            StartCoroutine(DelayResponse(2.0f, () =>
                 {
                     newsController.AddNewsPost(outcomeText, outcomeSprite);
                 }
@@ -40,7 +42,7 @@ namespace HacOS.Scripts.UI {
 		}
 
 		private void OnPostRead() {
-			StartCoroutine(DelayResponse(15.0f, () =>
+			StartCoroutine(DelayResponse(2.5f, () =>
                 {
                     GetIncommingTransmition();
                 }
@@ -54,8 +56,20 @@ namespace HacOS.Scripts.UI {
             action();
         }
 
-		private void OnGameOver(string reason, GameObject gameEndPrefab) {
-			
+		private void OnGameOver(string title, string message, GameObject gameEndPrefab) {
+			StartCoroutine(DelayResponse(2.5f, () =>
+                {
+                    endGameController.StartEndGame(title, message, gameEndPrefab);
+                }
+            ));
+		}
+
+		private void OnEndGameEmailClosed() {
+			StartCoroutine(DelayResponse(2.5f, () =>
+                {
+                    endGameController.ShowEndGamePrefab();
+                }
+            ));
 		}
 	}
 }

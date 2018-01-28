@@ -11,7 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df99e3058390450f8fe0e5fb757abf4, type: 3}
   m_Name: goodEndGame
   m_EditorClassIdentifier: 
-  title: 
-  text: 
-  gameOverPrefab: {fileID: 0}
-  waitPeriod: 0
+  title: Thank you
+  text: 'Hello {0},
+
+    I am from the CAI. You''ve done you''re country proud.
+
+    Now go take a well desered rest.
+
+    Good bye'
+  gameOverPrefab: {fileID: 1944759834206716, guid: 6bdf8b3b2a34842ee82f9e0d3ad3addb,
+    type: 2}
