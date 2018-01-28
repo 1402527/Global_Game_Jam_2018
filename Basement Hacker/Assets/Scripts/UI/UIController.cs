@@ -54,8 +54,8 @@ namespace HacOS.Scripts.UI {
             action();
         }
 
-		private void OnGameOver(string reason) {
-
+		private void OnGameOver(string reason, GameObject gameEndPrefab) {
+			
 		}
 	}
 }
