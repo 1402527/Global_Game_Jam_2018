@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
-  m_Name: transmission5_bad
+  m_Name: transmission7_bad
   m_EditorClassIdentifier: 
-  text: 'Berkeley Assassinated
+  text: 'Nuclear Blasts in New Newland
 
-    Angland is in mourning today following the fatal shooting of Prime Minister Rhonda
-    Berkeley during her speech in Hotting Nill. A lone-wolf gunman was arrested at
-    the scene, who investigators believe was motivated by a fanatical anti-Berkeley
-    agenda. Details to follow.'
+    Following reports of an impending, unprovoked cyber attack, King Harmon of Unfoundland
+    gave final orders to launch a nuclear missile strike on the Capital regions of
+    New Newland, breaking the bitter stalemate between the regions. The Governments
+    of New Newland are expected to retaliate.'
   sprite: {fileID: 0}
   outcomeValue: -40
