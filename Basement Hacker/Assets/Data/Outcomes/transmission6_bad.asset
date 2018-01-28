@@ -15,4 +15,5 @@ MonoBehaviour:
     scenes last night as ravenous rioters took the streets with no discernable motive.
     \u201CI literally saw someone light a Ford Focus on fire with a family inside.
     Shocking.\u201D says one eyewitness."
+  sprite: {fileID: 21300000, guid: b64655782f6434a0086791c0b54a590f, type: 3}
   outcomeValue: -10
