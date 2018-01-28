@@ -13,7 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Conspiracy Fanatic Terror Plot Revealed\nNotorious conspiracy blogger Reynold
     Blake was arrested this morning after the details of a full-scale terror attack
-    were found on his saved Cloud files. Police officials report that Blake vehemently
-    denied any terror plans, with one investigator going on record to say it was an
-    \u201Cobvious open-and-shut-case\u201D.\n"
+    were discovered on his saved Cloud files. Police officials report that Blake vehemently
+    denied these allegations, with one investigator going on record to say it was
+    an \u201Cobvious open-and-shut-case\u201D."
+  sprite: {fileID: 0}
   outcomeValue: -30

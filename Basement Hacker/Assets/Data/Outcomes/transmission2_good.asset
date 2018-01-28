@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Name: transmission2_good
   m_EditorClassIdentifier: 
   text: "McTricky Resigns\nFollowing the public uncovering of software giants \u201CIllumination
-    Industries\u201D plans to sabotage the business' of growing competition, Shady
-    McTricky has resigned from his post as CEO. The pressure mounted on the software
-    mogul after allegations emerged from NonThreat Inc. \n"
+    Industries\u201D plans to sabotage rising competition, Shady McTricky has resigned
+    from his post as CEO.\nThe pressure mounted on the software mogul after allegations
+    emerged from startup NonThreat Inc., who accused McTricky of deliberate sabotage
+    attempts for the benefit of Illuminations profit margins. The CEO admitted to
+    these attempts, embroiling the company into public scandal"
+  sprite: {fileID: 0}
   outcomeValue: 20

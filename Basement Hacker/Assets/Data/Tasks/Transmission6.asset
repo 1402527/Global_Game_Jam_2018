@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: Transmission6
   m_EditorClassIdentifier: 
   information: "Sporadic protests are taking place in the capital regions of Southern
-    Rontoria - an apparent outcry of Metabanks\u2019 lending practices during the
-    recent foreclosure crisis. Social Media analytics suggest growing public support
-    for the protestors, we can use our contacts within the tabloids to revert their
-    opinion, and gain Metabanks\u2019 loyalty."
+    Rontoria - an apparent demonstration against Metabanks\u2019 lending practices
+    during the recent foreclosure crisis. Social Media analytics suggest growing public
+    support for the protestors, we can use our contacts within the tabloids to revert
+    their opinion, and gain Metabanks\u2019 loyalty."
   goodChoice: Intercept tipoff to tabloids
   illuminateChoice: Lie to tabloids
   goodOutcome: {fileID: 11400000, guid: 5126980c2c9be450f8743cd2ac26f2fe, type: 2}

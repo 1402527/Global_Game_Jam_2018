@@ -13,8 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 'PM Postpones Speech
 
-    The Anglish support of Prime Minister Rhonda Berkeley were left disappointed this
-    morning after a short-notice cancellation of her Hotting Nill speech. The Prime
-    Minister is yet to give a reason for the postponement, with many insider sources
-    speculating a sudden minor illness.'
+    The Northern-Anglish support of Prime Minister Rhonda Berkeley were left disappointed
+    this morning after a short-notice cancellation of her speech in Hotting Nill.
+    The Prime Minister is yet to give a reason for the postponement, with many insider
+    sources speculating a sudden minor illness.'
+  sprite: {fileID: 0}
   outcomeValue: 40

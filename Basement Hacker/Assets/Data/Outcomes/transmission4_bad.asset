@@ -11,8 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545c776e01ad3497d9aada2449afb153, type: 3}
   m_Name: transmission4_bad
   m_EditorClassIdentifier: 
-  text: "Fidelity resigns\nMembers of the Fifth Party were stunned this week as Party
-    Leader Senator Fin Fidelity admitted to cheating on his wife. Fidelity has thusly
-    resigned as leader, grinding the Fifth Party\u2019s historical progress towards
-    the Armackan Final Election to a halt."
+  text: "Fidelity Resigns Amidst Cheating Shame\nMembers of the Fifth Party were stunned
+    this week as evidence of Party Leader Fin Fidelity engaging in an extramarital
+    affair has been proven true. The Senator has thusly resigned as leader, grinding
+    the Fifth Party\u2019s historical progress towards the Armackan Final Election
+    to a halt. "
+  sprite: {fileID: 0}
   outcomeValue: -40
